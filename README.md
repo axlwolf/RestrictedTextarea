@@ -1,6 +1,6 @@
 ## Restricted Textarea
 
-Roadmap project link: https://roadmap.sh/projects/restricted-textarea/solutions?u=
+Roadmap project link: https://roadmap.sh/projects/restricted-textarea/solutions?u=64b1bc4d5f038d81eeb4b894
 
 Roadmap project: https://roadmap.sh/projects/restricted-textarea
 
@@ -12,6 +12,7 @@ You are required to create a textarea that tracks and displays the number of cha
 
 ![Restricted Textarea](https://assets.roadmap.sh/guest/textarea-input-vdclr.png)
 
+This project will help you practice manipulating input elements with JavaScript, handling user input events, and providing real-time feedback to enhance user experience.
 
 ### Get started
 

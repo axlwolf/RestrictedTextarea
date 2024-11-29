@@ -8,8 +8,34 @@
   --white: #ffffff;
   --grey: #f0f0f0;
   --light-grey: #dcdcdc;
-  --blue: #C6E7FF;
-  --beige: #FFDDAE;
+  --blue: #c6e7ff;
+  --beige: #ffddae;
 }
 
-
+.textarea {
+  &-section {
+    font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2em;
+    position: relative;
+    textarea {
+      border: 3px solid var(--dark-purple);
+      border-radius: 8px;
+      text-align: left;
+      padding: 1em;
+      width: 100%;
+      resize: none;
+      &.limit-reach {
+        border: 3px solid tomato;
+        color: tomato;
+      }
+    }
+  }
+  &-charcount {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    &.limit-reach {
+      color: tomato;
+    }
+  }
+}
